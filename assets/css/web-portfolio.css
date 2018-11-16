@@ -1,0 +1,48 @@
+#webcontainerbg {
+    padding-top: 51px;
+    height: 100%;
+    width: 100%;
+}
+
+#containerweb {
+    border-radius: 25px;
+    padding-left: 25%;
+    padding-top: 51px;
+    padding-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#containerweb2 {
+    border-radius: 10px;
+    background-color:  #735a99;
+    padding: 20px;
+    overflow: auto;
+    clear: both;
+}
+#weblinebrk {
+    border-radius: 2px;
+    border-bottom: 2px solid #cdd5d1;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2em;
+    color: #cdd5d1;
+}
+.web {
+    float: left;
+    margin: 6px;
+}
+p {
+    color: #cdd5d1;
+    background-color: #e26c2f;
+    padding: 5px;
+    position: absolute;
+    width: 190px;
+    margin-top: 1.5%; 
+}
+.imagesd {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    float: left;
+}

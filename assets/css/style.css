@@ -1,0 +1,71 @@
+/*body standard for all page links */
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background-color: #cdd5d1;
+    margin: 0;
+    padding: 0;
+}
+/*navbar standard for all page links */
+#container1 {
+    z-index: 3;
+    background-color: #e26c2f;
+    color: #735a99;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    
+}
+#navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+a.navlist {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+#contactnav {
+    margin-right: 15px;
+}
+/*End of standard for all page links*/
+
+/*Container 2 css formatting only for index*/
+#profphoto {
+    width: 175px;
+}
+#container2 {
+    z-index: 2;
+    float: left;
+    position: fixed;
+    background-color: #735a99;
+    margin: 0;
+    padding-top: 69.5px;
+    padding-left: 17px;
+    padding-right: 17.5px;
+    padding-bottom: 100%;
+    width: 174.5px;
+}
+.c2p {
+    clear: both;
+    color: #cdd5d1; 
+}
+.c2h3 {
+    color: #e26c2f;
+}
+/*Container 3 formatting content only for index*/
+#container3 {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 204.4px;
+    padding: 75px;
+    max-width: 675px;
+    min-width: 10px;
+}
+.c3h3 {
+    color: #735a99; 
+}
+.c3p {
+    color: #464655;
+}
