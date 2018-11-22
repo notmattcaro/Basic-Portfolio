@@ -46,19 +46,25 @@ p {
     
 }
 .imagesd {
-    width: 200px;
-    height: 200px;
+    width: 640px;
+    height: 399px;
     border-radius: 5px;
-    float: 
+    float: left;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1350px) {
     #containerdesign {
         border-radius: 25px;
-        padding-left: 5%;
+        padding-left: 10%;
         padding-top: 51px;
-        padding-right: 5%;
+        padding-right: 10%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .imagesd {
+        width: 576px;
+        height: 359px;
+        border-radius: 5px;
+        float: left;
     }
 }
 @media screen and (max-width: 900px) {
@@ -69,5 +75,33 @@ p {
         padding-right: 10%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .imagesd {
+        width: 422px;
+        height: 263px;
+        border-radius: 5px;
+        float: left;
+    }
+    p {
+        padding: 3px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #containerdesign {
+        border-radius: 25px;
+        padding-left: 5%;
+        padding-top: 51px;
+        padding-right: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imagesd {
+        width: 211px;
+        height: 131px;
+        border-radius: 5px;
+        float: left;
+    }
+    p {
+        padding: 1px;
     }
 }
