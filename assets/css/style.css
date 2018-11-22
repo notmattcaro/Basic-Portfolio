@@ -69,3 +69,66 @@ a.navlist {
 .c3p {
     color: #464655;
 }
+
+
+
+
+/*This will be my test for media queries*/
+@media screen and (max-width: 500px) {
+/*This is for my media queries*/
+#navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+a.navlist {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px;
+}
+#contactnav {
+    margin-right: 20px;
+}
+/*This is the container with my bio*/
+    #profphoto {
+        width: 120px;
+    }
+    #container2 {
+        float: left;
+        position: fixed;
+        background-color: #735a99;
+        margin: 0;
+        padding-top: 69.5px;
+        padding-left: 8px;
+        padding-right: 8.5px;
+        padding-bottom: 100%;
+        width: 120px;
+    }
+    .c2h3 {
+        color: #e26c2f;
+        font-size: 14px;
+    }
+    .c2p {
+        clear: both;
+        color: #cdd5d1; 
+        font-size: 12px;
+    }
+/*this is for the story portion*/
+    #container3 {
+        position: absolute;
+        margin-top: 29px;
+        margin-left: 127px;
+        padding: 25px;
+        max-width: 675px;
+        min-width: 10px;
+    } 
+    .c3h3 {
+        font-size: 16px;
+    }
+    .c3ph {
+        font-size: 14px;
+    }
+    .c3p {
+        font-size: 12px;
+    }
+}

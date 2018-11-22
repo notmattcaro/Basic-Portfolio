@@ -28,9 +28,13 @@ h1 {
     font-size: 2em;
     color: #cdd5d1;
 }
+.designFlexbox {
+    display: flex;
+    justify-content: space-between;
+}
 .designs {
     float: left;
-    margin: 6px;
+    padding: 7px;
 }
 p {
     color: #cdd5d1;
@@ -46,4 +50,24 @@ p {
     height: 200px;
     border-radius: 5px;
     float: 
+}
+@media screen and (max-width: 650px) {
+    #containerdesign {
+        border-radius: 25px;
+        padding-left: 5%;
+        padding-top: 51px;
+        padding-right: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 900px) {
+    #containerdesign {
+        border-radius: 25px;
+        padding-left: 10%;
+        padding-top: 51px;
+        padding-right: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
